@@ -2,20 +2,62 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matyášova brána</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+      padding: 20px;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      font-size: 28px;
+      color: #222;
+    }
+    iframe {
+      width: 100%;
+      height: 200px;
+      max-width: 100%;
+      margin-top: 20px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      font-size: 20px;
+      margin-top: 30px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
+
   <h1>Matyášova brána</h1>
-  
-  <iframe width="100%" height="315" 
-    src="https://www.youtube.com/embed/TVŮJ-KÓD?enablejsapi=1" 
-    title="Video Matyášova brána" frameborder="0" allowfullscreen>
+
+  <p>Postav se před Matyášovu bránu a přehraj si video níže.</p>
+
+  <iframe 
+    src="https://www.youtube.com/embed/TVŮJ-KÓD?enablejsapi=1"
+    title="Video Matyášova brána"
+    frameborder="0"
+    allowfullscreen>
   </iframe>
 
-  <p>Až budete připraveni, klikněte na tlačítko níže.</p>
+  <p>Až budeš připraven(a), klikni na tlačítko níže a vydej se ke Katedrále sv. Víta.</p>
 
   <button onclick="window.location.href='https://www.google.com/maps/dir/?api=1&destination=50.090123,14.403456'">
-    ➡ Pokračovat ke Katedrále svatého Víta
+    ➡ Pokračovat ke Katedrále sv. Víta
   </button>
+
 </body>
 </html>
